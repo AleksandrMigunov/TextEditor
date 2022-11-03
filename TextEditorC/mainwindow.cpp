@@ -1,3 +1,19 @@
+/* Copyright (C) 2022 Aleksandr Migunov
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+  
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>. */
+
+
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QtCore>
@@ -468,8 +484,8 @@ void MainWindow::on_actionAbout_triggered()
     about_pro += "as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. \n\n";
     about_pro += "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of";
     about_pro += " MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. \n\n";
-    about_pro += "You should have received a copy of the GNU General Public License along with this program; ";
-    about_pro += "if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.";
+    about_pro += "You should have received a copy of the GNU General Public License along with this program. ";
+    about_pro += "If not, see <https://www.gnu.org/licenses/>.";
 
     QMessageBox::about(this, "About Program", about_pro);
 }
