@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Aleksandr Migunov
+# Copyright (C) 2022 Aleksandr Migunov
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -11,8 +11,7 @@
 # GNU General Public License for more details.
   
 # You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 # -*- coding: utf-8 -*-
 
@@ -315,7 +314,7 @@ class MyWin(QtWidgets.QMainWindow):
 
 
     def aboutDialog(self):
-        QtWidgets.QMessageBox.about(self, "About Program", "This is a program for editing texts \n\nCopyright (C) 2021 Aleksandr Migunov \n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. \n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. \n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.")     
+        QtWidgets.QMessageBox.about(self, "About Program", "This is a program for editing texts \n\nCopyright (C) 2022 Aleksandr Migunov \n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. \n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. \n\nYou should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.")     
 
 
     def aboutQt(self):
