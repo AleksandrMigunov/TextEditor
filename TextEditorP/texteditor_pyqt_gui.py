@@ -266,7 +266,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "ThreeTextEditor in Python with PyQt"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "TextEditor in Python with PyQt"))
         self.label_Text_1.setText(_translate("MainWindow", "<b>Text 1</b>"))
         self.label_Text_2.setText(_translate("MainWindow", "<b>Text 2</b>"))
         self.label_Text_3.setText(_translate("MainWindow", "<b>Text 3</b>"))

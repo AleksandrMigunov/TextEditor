@@ -27,7 +27,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.-->
    </rect>
   </property>
   <property name="windowTitle">
-   <string>ThreeTextEditor in Python with PySide</string>
+   <string>TextEditor in Python with PySide</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
