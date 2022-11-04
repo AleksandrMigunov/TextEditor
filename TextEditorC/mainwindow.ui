@@ -27,7 +27,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.-->
    </rect>
   </property>
   <property name="windowTitle">
-   <string>ThreeTextEditor in C++ with Qt</string>
+   <string>TextEditor in C++ with Qt</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
