@@ -479,7 +479,7 @@ void MainWindow::on_actionHighlight_in_Text_3_triggered()
 void MainWindow::on_actionAbout_triggered()
 {
     QString about_pro = "This is a program for editing texts \n\n";
-    about_pro += "Copyright (C) 2021 Aleksandr Migunov \n\n";
+    about_pro += "Copyright (C) 2022 Aleksandr Migunov \n\n";
     about_pro += "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License ";
     about_pro += "as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. \n\n";
     about_pro += "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of";
