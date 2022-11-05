@@ -123,7 +123,7 @@ class MyWin(QtWidgets.QMainWindow):
 
     def openFile_1(self):
         file_name, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open File",
-            "", "HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)")
+            "", "Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)")
 
         if file_name:
             with open(file_name, 'r') as f:
@@ -135,7 +135,7 @@ class MyWin(QtWidgets.QMainWindow):
 
     def openFile_2(self):
         file_name, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open File",
-            "", "HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)")
+            "", "Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)")
 
         if file_name:
             with open(file_name, 'r') as f:
@@ -148,7 +148,7 @@ class MyWin(QtWidgets.QMainWindow):
 
     def openFile_3(self):
         file_name, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open File",
-            "", "HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)")
+            "", "Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)")
 
         if file_name:
             with open(file_name, 'r') as f:
@@ -161,7 +161,7 @@ class MyWin(QtWidgets.QMainWindow):
             
     def saveToFile_1(self):
         file_name, _ = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File',
-            "","HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)")
+            "","Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)")
 
         if (file_name.endswith('.txt') or file_name.endswith('.SFM') or file_name.endswith('.sfm')):
             notepad_text = self.ui.textEdit_Text_1.toPlainText()
@@ -177,7 +177,7 @@ class MyWin(QtWidgets.QMainWindow):
 
     def saveToFile_2(self):
         file_name, _ = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File',
-            "","HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)")
+            "","Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)")
 
         if (file_name.endswith('.txt') or file_name.endswith('.SFM') or file_name.endswith('.sfm')):
             notepad_text = self.ui.textEdit_Text_2.toPlainText()
@@ -193,7 +193,7 @@ class MyWin(QtWidgets.QMainWindow):
 
     def saveToFile_3(self):
         file_name, _ = QtWidgets.QFileDialog.getSaveFileName(self, 'Save File',
-            "","HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)")
+            "","Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)")
 
         if (file_name.endswith('.txt') or file_name.endswith('.SFM') or file_name.endswith('.sfm')):
             notepad_text = self.ui.textEdit_Text_3.toPlainText()
