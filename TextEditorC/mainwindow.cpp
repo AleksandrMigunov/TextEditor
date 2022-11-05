@@ -87,7 +87,7 @@ void MainWindow::on_actionNew_Text_3_triggered()
 void MainWindow::on_actionOpen_Text_1_triggered()
 {
     QString file = QFileDialog::getOpenFileName(this, "Open file", "",
-                                              "HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)");
+                                              "Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)");
     if (!file.isEmpty())
     {
         QFile File(file);
@@ -111,7 +111,7 @@ void MainWindow::on_actionOpen_Text_1_triggered()
 void MainWindow::on_actionOpen_Text_2_triggered()
 {
     QString file = QFileDialog::getOpenFileName(this, "Open file", "",
-                                              "HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)");
+                                              "Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)");
     if (!file.isEmpty())
     {
         QFile File(file);
@@ -135,7 +135,7 @@ void MainWindow::on_actionOpen_Text_2_triggered()
 void MainWindow::on_actionOpen_Text_3_triggered()
 {
     QString file = QFileDialog::getOpenFileName(this, "Open file", "",
-                                              "HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)");
+                                              "Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)");
     if (!file.isEmpty())
     {
         QFile File(file);
@@ -159,7 +159,7 @@ void MainWindow::on_actionOpen_Text_3_triggered()
 void MainWindow::on_actionSave_Text_1_triggered()
 {
     QString file = QFileDialog::getSaveFileName(this, "Save File", "",
-                                                "HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)");
+                                                "Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)");
     QFile File(file);
     if(File.open(QFile::WriteOnly | QFile::Text))
     {
@@ -186,7 +186,7 @@ void MainWindow::on_actionSave_Text_1_triggered()
 void MainWindow::on_actionSave_Text_2_triggered()
 {
     QString file = QFileDialog::getSaveFileName(this, "Save File", "",
-                                                "HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)");
+                                                "Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)");
     QFile File(file);
     if(File.open(QFile::WriteOnly | QFile::Text))
     {
@@ -213,7 +213,7 @@ void MainWindow::on_actionSave_Text_2_triggered()
 void MainWindow::on_actionSave_Text_3_triggered()
 {
     QString file = QFileDialog::getSaveFileName(this, "Save File", "",
-                                                "HTML Files (*.html);;Text Files (*.txt);;Paratext Files (*.SFM *.sfm)");
+                                                "Text Files (*.txt);;HTML Files (*.html);;Paratext Files (*.SFM *.sfm)");
     QFile File(file);
     if(File.open(QFile::WriteOnly | QFile::Text))
     {
